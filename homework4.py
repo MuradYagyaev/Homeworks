@@ -2,6 +2,7 @@
 immutable_var = (1, 2, 3, ['огонь', 'вода', 'воздух'], True)
 print(immutable_var)
 # immutable_var[2] = 'Замена'     # TypeError: 'tuple' object does not support item assignment
+                                  # Объект кортеж не поддерживает изменение элементов.
 immutable_var[3][1] = 'Стихия'    # Но при этом список внутри кортежа можно изменить
 print(immutable_var)
 mutable_list = ['Попугай', 'Муравьи', 'Мои питомцы', 13, 15]
